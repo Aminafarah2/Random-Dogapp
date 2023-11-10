@@ -46,3 +46,4 @@ npm start
 
 3:Explore and enjoy the diverse and adorable images of dogs on the "About" page.
 
+## deployed netlify :https://roaring-biscuit-5712cf.netlify.app
