@@ -23,7 +23,18 @@ function About ({ dogImages }){
         </button>
         <div className="container mt-4">
         <h2 className="text-center">Explore Cute Dogs</h2>
-        <p>this is an app for random Images </p>
+        <p>This is an app for random Images:it displays random images of dogs and you can also add them to your favourites
+            Dogs are a diverse and fascinating group of animals,
+             both in terms of their physical appearances 
+             and their unique personalities.
+              When it comes to their images, 
+              you'll find an astonishing array of shapes, sizes, and coat colors.
+              each with its own distinct charm. Their coats can be smooth and sleek like the Greyhound,
+               or fluffy and cuddly like the Pomeranian. In terms of temperament, 
+               dogs exhibit a wide range of characters as well. Some are known for their unwavering loyalty
+                and protective nature,
+                like the German Shepherd, while others are beloved for their boundless energy and playfulness, such as the Labrador Retriever
+                CLICK "LOG IN"to see images of dogs </p>
         <div className="row">
             { DisplayDogs .map((dog) => (
             <div key={dog.id} className="col-md-4 mb-4">
