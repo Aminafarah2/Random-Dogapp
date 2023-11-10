@@ -6,7 +6,7 @@ function Favourites() {
 
   return (
     <div className="container mt-5">
-      <h1 className="mb-4">Hello from Favourites</h1>
+      <h1 className="mb-4">Hello welcome to Favourites<p>Here is your favourites dogs images</p></h1>
       <div className="row">
         {favorites.map((image, index) => (
           <div key={index} className="col-md-4 mb-4">

@@ -35,7 +35,7 @@ import { Link } from "react-router-dom";
   
     return (
       <div className="container mt-5">
-        <h1 className="mb-4">Hello from home</h1>
+        <h1 className="mb-4">Hello welcome to home page<p>Get to like the dogs you find atrractive</p></h1>
         <div className="row">
           {dogImages.map((image, index) => (
             <div key={index} className="col-md-4 mb-4">
